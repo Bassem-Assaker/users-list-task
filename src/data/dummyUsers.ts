@@ -1,0 +1,86 @@
+//I generated the dummy users data using AI.
+
+import { User } from "../types/user";
+
+export const dummyUsers: User[] = [
+  {
+    id: 1,
+    name: "Alice Johnson",
+    email: "alice@example.com",
+    role: "Admin",
+    status: "Active",
+    avatar: "https://i.pravatar.cc/150?u=1",
+  },
+  {
+    id: 2,
+    name: "Bob Smith",
+    email: "bob@example.com",
+    role: "Editor",
+    status: "Inactive",
+    avatar: "https://i.pravatar.cc/150?u=2",
+  },
+  {
+    id: 3,
+    name: "Charlie Brown",
+    email: "charlie@example.com",
+    role: "Viewer",
+    status: "Active",
+    avatar: "https://i.pravatar.cc/150?u=3",
+  },
+  {
+    id: 4,
+    name: "Diana Prince",
+    email: "diana@example.com",
+    role: "Admin",
+    status: "Active",
+    avatar: "https://i.pravatar.cc/150?u=4",
+  },
+  {
+    id: 5,
+    name: "Evan Wright",
+    email: "evan@example.com",
+    role: "Editor",
+    status: "Active",
+    avatar: "https://i.pravatar.cc/150?u=5",
+  },
+  {
+    id: 6,
+    name: "Fiona Gallagher",
+    email: "fiona@example.com",
+    role: "Viewer",
+    status: "Inactive",
+    avatar: "https://i.pravatar.cc/150?u=6",
+  },
+  {
+    id: 7,
+    name: "George Miller",
+    email: "george@example.com",
+    role: "Editor",
+    status: "Active",
+    avatar: "https://i.pravatar.cc/150?u=7",
+  },
+  {
+    id: 8,
+    name: "Hannah Abbott",
+    email: "hannah@example.com",
+    role: "Admin",
+    status: "Inactive",
+    avatar: "https://i.pravatar.cc/150?u=8",
+  },
+  {
+    id: 9,
+    name: "Ian Curtis",
+    email: "ian@example.com",
+    role: "Viewer",
+    status: "Active",
+    avatar: "https://i.pravatar.cc/150?u=9",
+  },
+  {
+    id: 10,
+    name: "Julia Roberts",
+    email: "julia@example.com",
+    role: "Editor",
+    status: "Active",
+    avatar: "https://i.pravatar.cc/150?u=10",
+  },
+];
