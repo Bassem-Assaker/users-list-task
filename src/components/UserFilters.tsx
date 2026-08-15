@@ -7,6 +7,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { User } from "@/types/user";
+import { Button } from "./ui/button";
 
 interface UserFiltersProps {
   searchQuery: string;
@@ -66,6 +67,17 @@ export function UserFilters({
           <SelectItem value="Inactive">Inactive</SelectItem>
         </SelectContent>
       </Select>
+
+      <Button
+        variant="outline"
+        onClick={() => {
+          setSearchQuery("");
+          setStatusFilter("All");
+          setRoleFilter("All");
+        }}
+      >
+        Clear
+      </Button>
     </div>
   );
 }
